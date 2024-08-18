@@ -61,7 +61,7 @@ export class Introduction extends React.Component {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 2,
+                                speed: 2.2,
                                 straight: false,
                             },
                             number: {
@@ -83,7 +83,7 @@ export class Introduction extends React.Component {
                         },
                         detectRetina: true,
                     }}
-                    className="absolute top-0 left-0 w-full h-full z-0"
+                    className="absolute top-0 left-0 w-full h-screen z-0"
                 />
 
                 {/* Introduction content */}
@@ -108,7 +108,7 @@ export class Introduction extends React.Component {
                         </span>
                     </p>
 
-                    <button className="mt-6 px-6 md:px-8 py-3 bg-primary text-white rounded-lg hover:bg-blue-800 focus:outline-none">
+                    <button className="mt-6 px-6 md:px-8 py-3 bg-primary text-white rounded-full hover:bg-blue-800 focus:outline-none">
                         About Me <span className="ml-2">⬇</span>
                     </button>
 
