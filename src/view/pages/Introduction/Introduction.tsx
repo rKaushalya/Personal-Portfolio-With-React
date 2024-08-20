@@ -3,6 +3,7 @@ import { ReactTyped as Typed } from 'react-typed';
 import Particles from "react-tsparticles";
 import { loadFull } from 'tsparticles';
 import profilePic from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
+import './particles.css';
 
 export class Introduction extends React.Component {
     particlesInit = async (main: any) => {
@@ -11,11 +12,12 @@ export class Introduction extends React.Component {
 
     render() {
         return (
-            <div className="relative min-h-screen flex items-center justify-around bg-white px-4 md:px-8">
+            <div id="container"
+                 className="relative min-h-screen bg-gray-50 flex items-center justify-around px-4 md:px-8">
                 {/* Particles background */}
                 <Particles
                     id="tsparticles"
-                    init={this.particlesInit}
+                    // init={this.particlesInit}
                     options={{
                         fpsLimit: 120,
                         interactivity: {
@@ -83,7 +85,7 @@ export class Introduction extends React.Component {
                         },
                         detectRetina: true,
                     }}
-                    className="absolute top-0 left-0 w-full h-screen z-0"
+                    className="absolute"
                 />
 
                 {/* Introduction content */}
@@ -138,7 +140,7 @@ export class Introduction extends React.Component {
                     <img
                         src={profilePic}
                         alt="Profile"
-                        className="w-48 h-48 md:w-72 md:h-72 rounded-full object-cover border-4 border-gray-300 shadow-lg"
+                        className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover border-4 border-gray-300 shadow-lg"
                     />
                 </div>
             </div>
