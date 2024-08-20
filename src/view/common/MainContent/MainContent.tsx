@@ -4,6 +4,7 @@ import {ContactMe} from "../../pages/ContactMe/ContactMe";
 import {Introduction} from "../../pages/Introduction/Introduction";
 import {AboutMe} from "../../pages/AboutMe/AboutMe";
 import {Education} from "../../pages/education/Education";
+import {Skills} from "../../pages/Skills/Skills";
 
 export class MainContent extends Component {
     render() {
@@ -12,6 +13,7 @@ export class MainContent extends Component {
                 <Introduction/>
                 <AboutMe/>
                 <Education/>
+                <Skills/>
                 <Routes>
                     <Route path="/contact-me" Component={ContactMe}></Route>
                 </Routes>
