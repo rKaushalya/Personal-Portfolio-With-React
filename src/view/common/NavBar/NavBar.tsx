@@ -1,7 +1,25 @@
 import * as React from 'react';
 import Logo from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
 
-export const NavBar = () => {
+export const NavBar: React.FC = () => {
+    const [isScrolled, setIsScrolled] = React.useState(false);
+
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 50) { // Adjust the value to control when the background changes
+            setIsScrolled(true);
+        } else {
+            setIsScrolled(false);
+        }
+    };
+
+    React.useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     const handleScrollTo = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
@@ -11,7 +29,7 @@ export const NavBar = () => {
 
     return (
         <div
-            className="flex border-b-2 h-14 flex-row items-center justify-around fixed w-screen bg-white z-20 font-publicSans">
+            className={`flex h-14 flex-row items-center justify-around fixed w-screen z-20 font-publicSans transition-colors duration-300 ${isScrolled ? 'bg-white border-b-2' : 'bg-transparent'}`}>
             <img className="h-10 w-10" src={Logo} alt="Logo" />
 
             <div>
