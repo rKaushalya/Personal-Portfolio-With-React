@@ -20,7 +20,10 @@ export class AboutMe extends React.Component<AboutMeProps> {
     render() {
         const { profilePic } = this.props;
         return (
-            <div className="min-h-full flex justify-center bg-white px-4 py-12">
+            <div className="min-h-screen flex flex-col items-center bg-white px-4 py-12">
+                {/* Centered Title */}
+                <h2 className="text-3xl font-bold text-purple-700 text-center mb-8">About Me</h2>
+
                 {/* Container for image and details */}
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start justify-between p-8">
                     {/* Profile Image */}
@@ -28,7 +31,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         <img
                             src={profilePic}
                             alt="Profile"
-                            className="w-80 rounded-lg object-cover shadow-lg transition-all duration-300 ease-in-out grayscale hover:grayscale-0"
+                            className="w-80 rounded-lg object-cover shadow-lg transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer"
                             onMouseMove={this.handleMouseMove}
                             onMouseLeave={this.handleMouseLeave}
                             style={{ transition: 'transform 0.3s ease-in-out' }}
@@ -37,9 +40,6 @@ export class AboutMe extends React.Component<AboutMeProps> {
 
                     {/* Details Section */}
                     <div className="w-full md:w-1/2 text-center md:text-left">
-                        {/* Title */}
-                        <h2 className="text-3xl font-bold text-purple-700">About Me</h2>
-
                         {/* Name & Role */}
                         <h3 className="mt-4 text-2xl font-semibold text-black">I'm Ravindu</h3>
                         <p className="text-lg text-gray-500">Full Stack Developer</p>
@@ -65,8 +65,9 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         </div>
 
                         {/* Resume Button */}
-                        <button className="mt-8 px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg hover:bg-purple-800">
-                            Resume <span className="ml-2">&rarr;</span>
+                        <button className="mt-8 px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg flex items-center transition-transform duration-300 hover:bg-purple-800 group">
+                            <span>Resume</span>
+                            <span className="ml-2 transition-transform duration-300 transform group-hover:translate-x-2">&rarr;</span>
                         </button>
                     </div>
                 </div>

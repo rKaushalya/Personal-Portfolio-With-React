@@ -1,13 +1,21 @@
 import React from 'react';
-import { ReactTyped as Typed } from 'react-typed';
+import {ReactTyped as Typed} from 'react-typed';
 import Particles from "react-tsparticles";
-import { loadFull } from 'tsparticles';
+import {loadFull} from 'tsparticles';
 import profilePic from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
 import './particles.css';
+import {FaArrowDown} from 'react-icons/fa';
 
 export class Introduction extends React.Component {
     particlesInit = async (main: any) => {
         await loadFull(main);
+    };
+
+    handleScrollTo = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'});
+        }
     };
 
     render() {
@@ -80,7 +88,7 @@ export class Introduction extends React.Component {
                                 type: "circle",
                             },
                             size: {
-                                value: { min: 1, max: 5 },
+                                value: {min: 1, max: 5},
                             },
                         },
                         detectRetina: true,
@@ -110,8 +118,12 @@ export class Introduction extends React.Component {
                         </span>
                     </p>
 
-                    <button className="mt-6 px-6 md:px-8 py-3 bg-primary text-white rounded-full hover:bg-blue-800 focus:outline-none">
-                        About Me <span className="ml-2">⬇</span>
+                    <button className="mt-6 px-6 md:px-8 py-3 bg-primary text-white rounded-full flex items-center
+                    transition-transform duration-300 hover:bg-blue-800 focus:outline-none group"
+                            onClick={() => this.handleScrollTo('about')}>
+                        <span>About Me</span>
+                        <FaArrowDown
+                            className="ml-2 transition-transform duration-300 transform group-hover:translate-x-1"/>
                     </button>
 
                     <div className="flex mt-8 space-x-4">
@@ -128,7 +140,7 @@ export class Introduction extends React.Component {
                             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn"/>
                         </a>
                         <a href="https://dev.to" target="_blank" rel="noreferrer">
-                            <img src="https://img.icons8.com/fluent/48/000000/dev.png" alt="Dev"/>
+                            <img src="https://img.icons8.com/color/48/dribbble.png" alt="dribbble"/>
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"/>

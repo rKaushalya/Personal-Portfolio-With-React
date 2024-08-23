@@ -3,8 +3,17 @@ import {FaLinkedin, FaGithub, FaTwitter, FaPaperPlane, FaFacebook} from "react-i
 import {FiPhoneCall} from "react-icons/fi";
 import {MdLocationOn} from "react-icons/md";
 import {SiGmail} from "react-icons/si";
+import * as React from "react";
 
 export class Footer extends Component {
+
+    handleScrollTo = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({behavior: 'smooth'});
+        }
+    };
+
     render() {
         return (
             <footer className="bg-[#0D0E2B] text-white py-8">
@@ -19,12 +28,24 @@ export class Footer extends Component {
                     <div className="">
                         <h2 className="text-xl font-semibold">Quick Links</h2>
                         <ul className="mt-4 space-y-2">
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ Home</li>
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ About</li>
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ Skills</li>
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ Education</li>
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ Work</li>
-                            <li className="hover:text-yellow-500 cursor-pointer">➤ Experience</li>
+                            <li className="hover:text-yellow-500 cursor-pointer">
+                                <button onClick={() => this.handleScrollTo('introduction')}>➤ Home</button>
+                            </li>
+                            <li className="hover:text-yellow-500 cursor-pointer">
+                                <button onClick={() => this.handleScrollTo('about')}>➤ About</button>
+                            </li>
+                                <li className="hover:text-yellow-500 cursor-pointer">
+                                    <button onClick={() => this.handleScrollTo('education')}>➤ Education</button>
+                                </li>
+                            <li className="hover:text-yellow-500 cursor-pointer">
+                                <button onClick={() => this.handleScrollTo('skills')}>➤ Tech Stack</button>
+                            </li>
+                            <li className="hover:text-yellow-500 cursor-pointer">
+                                <button onClick={() => this.handleScrollTo('projects')}>➤ Project</button>
+                            </li>
+                            <li className="hover:text-yellow-500 cursor-pointer">
+                                <button onClick={() => this.handleScrollTo('contact')}>➤ Contact</button>
+                            </li>
                         </ul>
                     </div>
 
