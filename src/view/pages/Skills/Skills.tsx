@@ -5,7 +5,7 @@ import { SiGit,
     SiDocker,
     SiPython,
     SiWordpress,SiExpress, SiMongodb, SiFirebase, SiMysql, SiPhp, SiSpring, SiSonarqube,
-    SiJavascript, SiNextdotjs, SiRedux, SiTypescript, SiTailwindcss, SiMui, SiBootstrap, SiJquery, SiOracle, SiJira, SiReact, SiAndroidstudio, SiGoogle } from "react-icons/si";
+    SiJavascript, SiNextdotjs, SiRedux, SiTypescript, SiTailwindcss, SiMui, SiBootstrap, SiJquery, SiOracle, SiJira, SiReact, SiAndroidstudio, SiGoogle, SiFigma } from "react-icons/si";
 
 export const Skills = () => {
     const [selectedTab, setSelectedTab] = useState("Frontend");
@@ -157,9 +157,9 @@ export const Skills = () => {
                         </div>
                         <div
                             className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110">
-                            <SiPhp
-                                className="text-purple-700 text-5xl mb-2 transition-transform duration-300 ease-in-out hover:scale-125"/>
-                            <p className="transition-all duration-300 ease-in-out">PHP</p>
+                            <SiFigma
+                                className="text-pink-500 text-5xl mb-2 transition-transform duration-300 ease-in-out hover:scale-125"/>
+                            <p className="transition-all duration-300 ease-in-out">Figma</p>
                         </div>
                         <div
                             className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110">
@@ -265,7 +265,7 @@ export const Skills = () => {
     };
 
     return (
-        <div className="text-center py-12">
+        <div className="text-center py-12 min-h-screen">
             <h2 className="text-4xl font-bold mb-6">Tech Stack</h2>
             <div className="flex justify-center space-x-4 mb-8">
                 <button
