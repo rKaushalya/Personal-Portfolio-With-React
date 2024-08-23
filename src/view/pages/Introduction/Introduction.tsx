@@ -97,7 +97,10 @@ export class Introduction extends React.Component {
                 />
 
                 {/* Introduction content */}
-                <div className="relative z-10 text-start">
+                <div data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500"
+                     className="relative z-10 text-start">
                     <p className="text-3xl md:text-4xl font-bold text-primary">Hi There</p>
                     <h1 className="text-5xl md:text-5xl font-bold mt-2 text-primary">
                         I'm <span className="text-yellow-500">Ravindu Kaushalya</span>
@@ -148,7 +151,7 @@ export class Introduction extends React.Component {
                     </div>
                 </div>
 
-                <div className="relative z-10 mt-12">
+                <div  data-aos="fade-left" className="relative z-10 mt-12">
                     <img
                         src={profilePic}
                         alt="Profile"

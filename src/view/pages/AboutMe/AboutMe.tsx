@@ -27,7 +27,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
                 {/* Container for image and details */}
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start justify-between p-8">
                     {/* Profile Image */}
-                    <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 relative overflow-hidden">
+                    <div data-aos="fade-up-right" className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 relative overflow-hidden">
                         <img
                             src={profilePic}
                             alt="Profile"
@@ -39,7 +39,11 @@ export class AboutMe extends React.Component<AboutMeProps> {
                     </div>
 
                     {/* Details Section */}
-                    <div className="w-full md:w-1/2 text-center md:text-left">
+                    <div data-aos="fade-zoom-in"
+                         data-aos-easing="ease-in-back"
+                         data-aos-delay="300"
+                         data-aos-offset="0"
+                         className="w-full md:w-1/2 text-center md:text-left">
                         {/* Name & Role */}
                         <h3 className="mt-4 text-2xl font-semibold text-black">I'm Ravindu</h3>
                         <p className="text-lg text-gray-500">Full Stack Developer</p>

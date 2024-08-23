@@ -293,7 +293,10 @@ export const Skills = () => {
                     Others
                 </button>
             </div>
-            <div className="flex justify-center mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[50%]">{renderLogos()}</div>
+            <div data-aos="zoom-out-up"
+                 className="flex justify-center mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[50%]">
+                {renderLogos()}
+            </div>
         </div>
     );
 };

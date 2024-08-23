@@ -15,7 +15,9 @@ export class Education extends Component {
                     </p>
                 </div>
                 <div className="max-w-6xl mx-auto">
-                    <div className="bg-white shadow-md rounded-lg flex flex-col md:flex-row items-center mb-8 hover:shadow-lg">
+                    <div data-aos="fade-up"
+                         data-aos-anchor-placement="top-bottom"
+                         className="bg-white shadow-md rounded-lg flex flex-col md:flex-row items-center mb-8 hover:shadow-lg">
                         <img
                             src={Bolton}
                             alt="Bolton university"
@@ -28,7 +30,9 @@ export class Education extends Component {
                         </div>
                     </div>
 
-                    <div className="bg-white shadow-md rounded-lg flex flex-col md:flex-row items-center hover:shadow-lg">
+                    <div data-aos="fade-up"
+                         data-aos-anchor-placement="top-bottom"
+                         className="bg-white shadow-md rounded-lg flex flex-col md:flex-row items-center hover:shadow-lg">
                         <img
                             src={IJSE}
                             alt="IJSE - Institute of software Engineering"

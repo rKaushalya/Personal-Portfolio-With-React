@@ -10,7 +10,7 @@ export class ContactMe extends Component {
 
                 <div className="flex flex-col md:flex-row items-center justify-center w-full">
                     {/* Left side with the image */}
-                    <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
+                    <div data-aos="flip-left" className="md:w-1/2 flex justify-center mb-8 md:mb-0">
                         <img
                             src={Image}
                             alt="Contact Illustration"
@@ -19,7 +19,7 @@ export class ContactMe extends Component {
                     </div>
 
                     {/* Right side with the form */}
-                    <div className="md:w-1/2">
+                    <div data-aos="zoom-in-left" className="md:w-1/2">
                         <h3 className="text-xl font-semibold mb-2">Get in touch</h3>
                         <p className="text-gray-500 mb-8">
                             My inbox is always open! 📧 Whether you've got a burning question or want to drop a friendly
