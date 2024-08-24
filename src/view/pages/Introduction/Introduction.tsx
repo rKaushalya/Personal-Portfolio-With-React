@@ -101,18 +101,19 @@ export class Introduction extends React.Component {
                      data-aos-easing="linear"
                      data-aos-duration="1500"
                      className="relative z-10 text-start">
-                    <p className="text-3xl md:text-4xl font-bold text-primary">Hi There</p>
-                    <h1 className="text-5xl md:text-5xl font-bold mt-2 text-primary">
+                    <p className="text-3xl lg:text-4xl md:text-3xl font-bold text-primary">Hi There</p>
+                    <h1 className="text-5xl lg:text-5xl md:text-3xl font-bold mt-2 text-primary">
                         I'm <span className="text-yellow-500">Ravindu Kaushalya</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-700 mt-4">
+                    <p className="text-xl lg:text-2xl md:text-xl text-gray-700 mt-4">
                         I am into{' '}
                         <span className="text-red-600">
                             <Typed
                                 strings={[
-                                    'Web Development',
-                                    'Mobile Application Development',
                                     'Backend Development',
+                                    'Web Designing',
+                                    'Frontend Development',
+                                    'Android Development',
                                 ]}
                                 typeSpeed={80}
                                 backSpeed={50}
@@ -121,7 +122,7 @@ export class Introduction extends React.Component {
                         </span>
                     </p>
 
-                    <button className="mt-6 px-6 md:px-8 py-3 bg-primary text-white rounded-full flex items-center
+                    <button className="mt-6 px-6 lg:px-8 py-3 bg-primary text-white rounded-full flex items-center
                     transition-transform duration-300 hover:bg-blue-800 focus:outline-none group"
                             onClick={() => this.handleScrollTo('about')}>
                         <span>About Me</span>
@@ -129,7 +130,7 @@ export class Introduction extends React.Component {
                             className="ml-2 transition-transform duration-300 transform group-hover:translate-x-1"/>
                     </button>
 
-                    <div className="flex mt-8 space-x-4">
+                    <div className="flex mt-8 space-x-4 md:w-10/12">
                         <a href="https://instagram.com" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"/>
                         </a>
@@ -155,7 +156,7 @@ export class Introduction extends React.Component {
                     <img
                         src={profilePic}
                         alt="Profile"
-                        className="w-60 h-60 md:w-96 md:h-96 rounded-full object-cover border-4 border-gray-300 shadow-lg"
+                        className="w-60 h-60 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-full object-cover border-4 border-gray-300 shadow-lg"
                     />
                 </div>
             </div>

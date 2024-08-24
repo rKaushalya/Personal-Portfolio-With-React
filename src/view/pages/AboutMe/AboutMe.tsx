@@ -22,7 +22,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
         return (
             <div className="min-h-screen flex flex-col items-center bg-white px-4 py-12">
                 {/* Centered Title */}
-                <h2 className="py-5 text-4xl font-bold  text-center mb-8">About <span className="text-purple-700"> Me</span></h2>
+                <h2 className="py-5 lg:text-4xl md:text-3xl font-bold  text-center mb-8">About <span className="text-purple-700"> Me</span></h2>
 
                 {/* Container for image and details */}
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start justify-between p-8">
@@ -31,7 +31,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         <img
                             src={profilePic}
                             alt="Profile"
-                            className="w-80 rounded-lg object-cover shadow-lg transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer"
+                            className="lg:w-80 md:w-72 rounded-lg object-cover shadow-lg transition-all duration-300 ease-in-out grayscale hover:grayscale-0 cursor-pointer"
                             onMouseMove={this.handleMouseMove}
                             onMouseLeave={this.handleMouseLeave}
                             style={{ transition: 'transform 0.3s ease-in-out' }}
@@ -45,11 +45,11 @@ export class AboutMe extends React.Component<AboutMeProps> {
                          data-aos-offset="0"
                          className="w-full md:w-1/2 text-center md:text-left">
                         {/* Name & Role */}
-                        <h3 className="mt-4 text-2xl font-semibold text-black">I'm Ravindu</h3>
-                        <p className="text-lg text-gray-500">Full Stack Developer</p>
+                        <h3 className="mt-4 lg:text-2xl md:text-xl font-semibold text-black">I'm Ravindu</h3>
+                        <p className="lg:text-lg md:text-lg text-gray-500">Full Stack Developer</p>
 
                         {/* Description */}
-                        <p className="mt-4 text-gray-600">
+                        <p className="mt-4 text-gray-600 md:text-xs lg:text-[14px]">
                             I am a full-stack developer based in Galle, Sri Lanka. I’m following GDSE
                             course from the Institute of Software Engineering. I am very passionate about
                             improving my coding skills & developing applications & websites. I build websites
