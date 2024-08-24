@@ -14,7 +14,7 @@ export class ContactMe extends Component {
                         <img
                             src={Image}
                             alt="Contact Illustration"
-                            className="w-3/4 h-auto md:w-96"
+                            className="lg:w-3/4 h-auto md:w-96"
                         />
                     </div>
 

@@ -270,7 +270,7 @@ export const Skills = () => {
             <div className="flex justify-center space-x-4 mb-8">
                 <button
                     onClick={() => setSelectedTab("Frontend")}
-                    className={`px-12 py-3 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
                         selectedTab === "Frontend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -278,7 +278,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Backend")}
-                    className={`px-12 py-3 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
                         selectedTab === "Backend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -286,7 +286,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Others")}
-                    className={`px-12 py-3 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
                         selectedTab === "Others" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >

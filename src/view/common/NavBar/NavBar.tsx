@@ -41,11 +41,12 @@ export const NavBar: React.FC = () => {
     return (
         <>
             <div
-                className={`flex h-14 flex-row items-center justify-around fixed w-screen z-20 font-publicSans transition-colors duration-300 ${isScrolled ? 'bg-white border-b-2' : 'bg-transparent'}`}>
+                className={`fixed flex h-14 flex-row items-center justify-around w-screen z-50 font-publicSans 
+                transition-colors duration-300 ${isScrolled ? 'bg-white border-b-2' : 'bg-transparent'}`}>
                 <img className="h-10 w-10" src={Logo} alt="Logo" />
 
                 <div>
-                    <ul className="list-none flex mt-1">
+                    <ul className="list-none flex mt-1 lg:text-[16px]">
                         <li className="relative mr-5 hover:text-purple-700">
                             <button onClick={() => handleScrollTo('introduction')}>Home</button>
                         </li>
