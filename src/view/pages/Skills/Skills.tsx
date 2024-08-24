@@ -14,7 +14,7 @@ export const Skills = () => {
         switch (selectedTab) {
             case "Frontend":
                 return (
-                    <div className="grid grid-cols-5 gap-12 w-full">
+                    <div className="grid lg:grid-cols-5 sm:grid-cols-4 sm:gap-10 lg:gap-12 w-full">
                         <div
                             className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110">
                             <FaReact
@@ -93,7 +93,7 @@ export const Skills = () => {
                 );
             case "Backend":
                 return (
-                    <div className="grid grid-cols-5 gap-12 w-full">
+                    <div className="grid lg:grid-cols-5 sm:grid-cols-4 sm:gap-10 lg:gap-12 w-full">
                         <div
                             className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110">
                             <SiOracle
@@ -148,7 +148,7 @@ export const Skills = () => {
                 );
             case "Others":
                 return (
-                    <div className="grid grid-cols-5 gap-12 w-full">
+                    <div className="grid lg:grid-cols-5 sm:grid-cols-4 sm:gap-10 lg:gap-12 w-full">
                         <div
                             className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110">
                             <SiWordpress
@@ -265,12 +265,12 @@ export const Skills = () => {
     };
 
     return (
-        <div className="text-center py-12 min-h-screen">
-            <h2 className="pt-5 lg:text-4xl md:text-3xl font-bold mb-6">Tech Stack</h2>
+        <div className="text-center py-12 md:min-h-screen sm:min-h-full">
+            <h2 className="pt-5 lg:text-4xl md:text-3xl sm:text-3xl font-bold mb-6">Tech Stack</h2>
             <div className="flex justify-center space-x-4 mb-8">
                 <button
                     onClick={() => setSelectedTab("Frontend")}
-                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1.5 rounded-md ${
                         selectedTab === "Frontend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -278,7 +278,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Backend")}
-                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1.5 rounded-md ${
                         selectedTab === "Backend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -286,7 +286,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Others")}
-                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1 rounded-md ${
+                    className={`md:px-12 md:py-3 sm:px-6 sm:py-1.5 rounded-md ${
                         selectedTab === "Others" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >

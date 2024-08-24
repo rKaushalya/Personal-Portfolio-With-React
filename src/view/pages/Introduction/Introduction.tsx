@@ -126,7 +126,7 @@ export class Introduction extends React.Component {
                     </p>
 
                     <button
-                        className="mt-6 px-6 md:px-8 md:py-3 sm:px-3 sm:py-2 bg-primary text-white rounded-full flex items-center
+                        className="mt-6 px-6 md:px-8 md:py-3 sm:px-4 sm:py-2 bg-primary text-white rounded-full flex items-center
                     transition-transform duration-300 hover:bg-blue-800 focus:outline-none group"
                         onClick={() => this.handleScrollTo("about")}
                     >

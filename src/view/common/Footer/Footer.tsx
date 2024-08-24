@@ -17,15 +17,15 @@ export class Footer extends Component {
     render() {
         return (
             <footer className="bg-[#0D0E2B] text-white py-8">
-                <div className="flex flex-wrap justify-evenly">
-                    <div className="w-3/12">
+                <div className="flex md:flex-wrap sm:flex-col md:flex-row md:justify-evenly sm:ml-5 mr-5">
+                    <div className="md:w-3/12 sm:w-full">
                         <h2 className="text-xl font-semibold">Ravindu's Portfolio</h2>
                         <p className="mt-4">Thank you for visiting my personal portfolio website. Connect with me over
                             socials.</p>
                         <p className="mt-2">Keep Rising 🚀. Connect with me over live chat!</p>
                     </div>
 
-                    <div className="">
+                    <div className="sm:mt-10 md:mt-0">
                         <h2 className="text-xl font-semibold">Quick Links</h2>
                         <ul className="mt-4 space-y-2">
                             <li className="hover:text-yellow-500 cursor-pointer">
@@ -49,7 +49,7 @@ export class Footer extends Component {
                         </ul>
                     </div>
 
-                    <div className="">
+                    <div className="sm:mt-10 md:mt-0">
                         <h2 className="text-xl font-semibold">Contact Info</h2>
                         <ul className="mt-4 space-y-2">
                             <li className="flex justify-start hover:text-yellow-500 cursor-pointer"><FiPhoneCall className="mr-2"/>
@@ -85,7 +85,7 @@ export class Footer extends Component {
                 <div className="border-t border-gray-700 mt-8 pt-4 text-center">
                     <p>
                         Designed With{" "}
-                        <span className="text-red-500" role="img" aria-label="love">❤️</span>{" "}
+                        <span className="text-red-500 sm:text-xs" role="img" aria-label="love">❤️</span>{" "}
                         By Ravindu Kaushalya
                     </p>
                 </div>
