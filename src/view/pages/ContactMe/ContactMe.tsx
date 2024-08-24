@@ -6,7 +6,7 @@ export class ContactMe extends Component {
         return (
             <div className="flex flex-col items-center justify-center py-12 px-8 md:px-20 lg:px-20 bg-white">
                 {/* Title section */}
-                <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
+                <h2 className="py-5 text-4xl font-bold text-center mb-12">Contact <span className="text-purple-700">Me</span></h2>
 
                 <div className="flex flex-col md:flex-row items-center justify-center w-full">
                     {/* Left side with the image */}

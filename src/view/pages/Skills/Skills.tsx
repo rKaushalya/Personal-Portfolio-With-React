@@ -4,7 +4,7 @@ import { SiGit,
     SiGithub,
     SiDocker,
     SiPython,
-    SiWordpress,SiExpress, SiMongodb, SiFirebase, SiMysql, SiPhp, SiSpring, SiSonarqube,
+    SiWordpress,SiExpress, SiMongodb, SiFirebase, SiMysql, SiSpring, SiSonarqube,
     SiJavascript, SiNextdotjs, SiRedux, SiTypescript, SiTailwindcss, SiMui, SiBootstrap, SiJquery, SiOracle, SiJira, SiReact, SiAndroidstudio, SiGoogle, SiFigma } from "react-icons/si";
 
 export const Skills = () => {
@@ -266,11 +266,11 @@ export const Skills = () => {
 
     return (
         <div className="text-center py-12 min-h-screen">
-            <h2 className="text-4xl font-bold mb-6">Tech Stack</h2>
+            <h2 className="pt-5 text-4xl font-bold mb-6">Tech Stack</h2>
             <div className="flex justify-center space-x-4 mb-8">
                 <button
                     onClick={() => setSelectedTab("Frontend")}
-                    className={`px-4 py-2 rounded-lg font-semibold ${
+                    className={`px-12 py-3 rounded-md ${
                         selectedTab === "Frontend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -278,7 +278,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Backend")}
-                    className={`px-4 py-2 rounded-lg font-semibold ${
+                    className={`px-12 py-3 rounded-md ${
                         selectedTab === "Backend" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -286,7 +286,7 @@ export const Skills = () => {
                 </button>
                 <button
                     onClick={() => setSelectedTab("Others")}
-                    className={`px-4 py-2 rounded-lg font-semibold ${
+                    className={`px-12 py-3 rounded-md ${
                         selectedTab === "Others" ? "bg-purple-500 text-white" : "bg-gray-200"
                     }`}
                 >
@@ -294,7 +294,7 @@ export const Skills = () => {
                 </button>
             </div>
             <div data-aos="zoom-out-up"
-                 className="flex justify-center mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[50%]">
+                 className="py-5 flex justify-center mx-auto max-w-[90%] md:max-w-[70%] lg:max-w-[50%]">
                 {renderLogos()}
             </div>
         </div>

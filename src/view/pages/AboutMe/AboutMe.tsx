@@ -22,7 +22,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
         return (
             <div className="min-h-screen flex flex-col items-center bg-white px-4 py-12">
                 {/* Centered Title */}
-                <h2 className="text-3xl font-bold text-purple-700 text-center mb-8">About Me</h2>
+                <h2 className="py-5 text-4xl font-bold  text-center mb-8">About <span className="text-purple-700"> Me</span></h2>
 
                 {/* Container for image and details */}
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start justify-between p-8">

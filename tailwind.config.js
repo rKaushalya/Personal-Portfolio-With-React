@@ -12,7 +12,7 @@ module.exports = {
         custom: ['18px', '24px'],
       },
       colors: {
-        primary: '#1d5fee',
+        primary: '#135ef3',
         secondary: '#1295f3',
         tertiary: '#53b1ec',
         customColor: 'rgba(47, 43, 61, 0.78)',

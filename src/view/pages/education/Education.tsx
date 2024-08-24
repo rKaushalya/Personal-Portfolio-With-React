@@ -7,7 +7,7 @@ export class Education extends Component {
         return (
             <div className="bg-lightBlue min-h-full py-10">
                 <div className="text-center">
-                    <h2 className="text-4xl font-bold text-purple-800 mb-4">
+                    <h2 className="pt-5 text-4xl font-bold mb-4">
                         <span role="img" aria-label="graduation cap">🎓</span> My Education
                     </h2>
                     <p className="text-gray-600 mb-10">
