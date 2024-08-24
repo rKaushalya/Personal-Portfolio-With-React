@@ -1,19 +1,22 @@
 import * as React from 'react';
+import { FaArrowUp } from 'react-icons/fa';
 import Logo from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
-import {FaArrowUp} from 'react-icons/fa';
+import './style.css';
 
 export const NavBar: React.FC = () => {
     const [isScrolled, setIsScrolled] = React.useState(false);
     const [showScrollButton, setShowScrollButton] = React.useState(false);
+    const [scrollButtonAnimation, setScrollButtonAnimation] = React.useState('');
 
     const handleScroll = () => {
         const offset = window.scrollY;
         if (offset > 50) {
             setIsScrolled(true);
             setShowScrollButton(true);
+            setScrollButtonAnimation('animate-slideIn');
         } else {
             setIsScrolled(false);
-            setShowScrollButton(false);
+            setScrollButtonAnimation('animate-slideOut');
         }
     };
 
@@ -68,8 +71,8 @@ export const NavBar: React.FC = () => {
             {/* Scroll to Top Button */}
             {showScrollButton && (
                 <button
-                    className="fixed bottom-10 right-10 bg-purple-700 text-white px-3 py-3 rounded-full shadow-lg
-                    transition-transform duration-300 ease-in-out hover:bg-blue-700 animate-bounce"
+                    className={`z-10 fixed bottom-10 right-10 bg-purple-700 text-white px-3 py-3 rounded-full shadow-lg 
+                    transition-transform duration-300 ease-in-out hover:bg-purple-950 animate-bounce ${scrollButtonAnimation}`}
                     onClick={scrollToTop}
                 >
                     <FaArrowUp/>
