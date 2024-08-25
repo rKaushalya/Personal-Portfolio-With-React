@@ -266,7 +266,7 @@ export const Skills = () => {
 
     return (
         <div className="text-center py-12 md:min-h-screen sm:min-h-full">
-            <h2 className="pt-5 lg:text-4xl md:text-3xl sm:text-3xl font-bold mb-6">Tech Stack</h2>
+            <h2 className="pt-5 lg:text-4xl md:text-3xl sm:text-3xl mb-6">Tech Stack</h2>
             <div className="flex justify-center space-x-4 mb-8">
                 <button
                     onClick={() => setSelectedTab("Frontend")}

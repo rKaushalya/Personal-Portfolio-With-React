@@ -63,16 +63,16 @@ export class Footer extends Component {
                             </li>
                         </ul>
                         <div className="flex mt-4 justify-start space-x-4">
-                            <a className="hover:text-yellow-500" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a className="hover:text-yellow-500" href="https://www.linkedin.com/in/ravindu-kaushalya-691785264/" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedin className="text-2xl"/>
                             </a>
-                            <a className="hover:text-yellow-500" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a className="hover:text-yellow-500" href="https://github.com/rKaushalya" target="_blank" rel="noopener noreferrer">
                                 <FaGithub className="text-2xl"/>
                             </a>
-                            <a className="hover:text-yellow-500" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                            <a className="hover:text-yellow-500" href="https://web.facebook.com/ravindu.kawshalya.33" target="_blank" rel="noopener noreferrer">
                                 <FaFacebook className="text-2xl"/>
                             </a>
-                            <a className="hover:text-yellow-500" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <a className="hover:text-yellow-500" href="https://twitter.com/HGR_Kaushalya" target="_blank" rel="noopener noreferrer">
                                 <FaTwitter className="text-2xl"/>
                             </a>
                             <a className="hover:text-yellow-500" href="https://telegram.org" target="_blank" rel="noopener noreferrer">

@@ -2,11 +2,14 @@ import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaPlayCircle } from "react-icons/fa";
 import './style.css'
 import Image1 from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
+import Project01 from './../../../assest/images/project/project01.png';
+import Project02 from './../../../assest/images/project/project02.png';
 
 interface Project {
     title: string;
     techStack: string;
     image: string;
+    description: string;
     links: {
         live: string;
         github: string;
@@ -16,9 +19,12 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: "Instagram MERN",
-        techStack: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, AWS S3, SendGrid, Socket.IO",
-        image: Image1,
+        title: "Diving Center Management System",
+        techStack: "Java, JavaFx, Scene Builder, Mysql, Layered Architecture",
+        image: Project01,
+        description: "it's a simple project for diving center, it can add or remove admins to it, " +
+            "And simple CRUD operation can be done, The architecture used to make it is Layered Architecture, " +
+            "It is also developed in Java and Mysql",
         links: {
             live: "#",
             github: "https://github.com/rKaushalya",
@@ -26,9 +32,11 @@ const projects: Project[] = [
         }
     },
     {
-        title: "Flipkart MERN",
-        techStack: "ReactJS, Redux, NodeJS, ExpressJS, MongoDB, TailwindCSS, MUI, Paytm, Cloudinary, SendGrid",
-        image: Image1,
+        title: "Battlefield Game",
+        techStack: "Java, JavaFx, Scene Builder",
+        image: Project02,
+        description: "this is simple game development. It has two single players, each player can choose three weapons, " +
+            "after choosing the weapon they can fight and the player with the highest score wins.",
         links: {
             live: "#",
             github: "#",
@@ -39,6 +47,7 @@ const projects: Project[] = [
         title: "ResumeGen",
         techStack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
         image: Image1,
+        description: "",
         links: {
             live: "#",
             github: "#",
@@ -49,6 +58,7 @@ const projects: Project[] = [
         title: "ResumeGen",
         techStack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
         image: Image1,
+        description: "",
         links: {
             live: "#",
             github: "#",
@@ -79,7 +89,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
                     </a>
                 </div>
                 <div className="mt-2 text-center">
-                    <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa dolorem excepturi harum non omnis optio perferendis unde vel voluptatem. A aspernatur esse est facilis iusto mollitia quisquam ratione, velit?</p>
+                    <p className="text-white">{project.description}</p>
                 </div>
             </div>
         </div>
@@ -93,7 +103,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
 export const Projects = () => {
     return (
         <div className="py-12 px-8 md:px-20 lg:px-20 min-h-screen">
-            <h2 className="py-5 sm:py-2 lg:text-4xl md:text-3xl sm:text-3xl font-bold text-center mb-8">Projects</h2>
+            <h2 className="py-5 sm:py-2 lg:text-4xl md:text-3xl sm:text-3xl font-__Poppins_524169 text-center md:mb-12">Projects</h2>
             <div data-aos="zoom-in-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} project={project}/>

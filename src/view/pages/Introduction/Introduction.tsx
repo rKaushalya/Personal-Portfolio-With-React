@@ -136,22 +136,22 @@ export class Introduction extends React.Component {
                     </button>
 
                     <div className="flex mt-8 sm:mt-4 space-x-4 md:w-10/12 sm:w-10/12">
-                        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/rkaushalya_/" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"/>
                         </a>
-                        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                        <a href="https://web.facebook.com/ravindu.kawshalya.33" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"/>
                         </a>
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/rKaushalya" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/github.png" alt="GitHub"/>
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/ravindu-kaushalya-691785264/" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn"/>
                         </a>
-                        <a href="https://dev.to" target="_blank" rel="noreferrer">
+                        <a href="https://dribbble.com/rkaushalya" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/color/48/dribbble.png" alt="dribbble"/>
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/HGR_Kaushalya" target="_blank" rel="noreferrer">
                             <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter"/>
                         </a>
                     </div>
