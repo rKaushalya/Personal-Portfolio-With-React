@@ -30,7 +30,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/SKD-Work-Shop-With-MERN-Stack",
             demo: "#"
         },
     },
@@ -41,7 +41,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/Easy-Car-Rental-System",
             demo: "#"
         },
     },
@@ -51,8 +51,8 @@ const projects: Project[] = [
         image: Project03,
         description: "",
         links: {
-            live: "#",
-            github: "#",
+            live: "https://rkaushalya.github.io/MyPortfolio/",
+            github: "https://github.com/rKaushalya/MyPortfolio",
             demo: "#"
         }
     },
@@ -63,7 +63,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/2D_Game-With_HTML_CSS_JS",
             demo: "#"
         }
     },
@@ -74,7 +74,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/D24_Room_management_system-with-Hibernate",
             demo: "#"
         },
     },
@@ -85,7 +85,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/Live-Chat-Application",
             demo: "#"
         },
     },
@@ -96,7 +96,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "https://github.com/rKaushalya",
+            github: "https://github.com/rKaushalya/Final-Project",
             demo: "#"
         }
     },
@@ -107,7 +107,7 @@ const projects: Project[] = [
         description: "",
         links: {
             live: "#",
-            github: "#",
+            github: "https://github.com/rKaushalya/Battlefield-Game",
             demo: "#"
         }
     }
