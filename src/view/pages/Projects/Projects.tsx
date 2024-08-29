@@ -1,9 +1,14 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaPlayCircle } from "react-icons/fa";
 import './style.css'
-import Image1 from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
 import Project01 from './../../../assest/images/project/project01.png';
 import Project02 from './../../../assest/images/project/project02.png';
+import Project03 from './../../../assest/images/project/project3.png';
+import Project04 from './../../../assest/images/project/project4.png';
+import Project05 from './../../../assest/images/project/project5.png';
+import Project06 from './../../../assest/images/project/project6.png';
+import Project07 from './../../../assest/images/project/project7.png';
+import Project08 from './../../../assest/images/project/project8.jpg';
 
 interface Project {
     title: string;
@@ -19,12 +24,76 @@ interface Project {
 
 const projects: Project[] = [
     {
+        title: "Work Shop With MERN",
+        techStack: "React, TypeScript, Tailwind, MongoDB, Nodejs, Expressjs, Axios",
+        image: Project05,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        },
+    },
+    {
+        title: "Car Rental System",
+        techStack: "HTML 5, Bootstrap, CSS, Jquery, Ajax, Java, Spring Framework, Hibernate, Maven, Mysql",
+        image: Project08,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        },
+    },
+    {
+        title: "My First Portfolio",
+        techStack: "HTML 5, CSS, JavaScript, Jquery, Bootstrap",
+        image: Project03,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        }
+    },
+    {
+        title: "2D Game",
+        techStack: "HTML 5, CSS, JavaScript, Jquery, Bootstrap",
+        image: Project04,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        }
+    },
+    {
+        title: "D24 Room Management System",
+        techStack: "Java, JavaFx, Scene Builder, Hibernate, Lombok, Layered Architecture",
+        image: Project07,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        },
+    },
+    {
+        title: "Live Chat Application",
+        techStack: "Java, Java Socket, JavaFx, Scene Builder",
+        image: Project06,
+        description: "",
+        links: {
+            live: "#",
+            github: "#",
+            demo: "#"
+        },
+    },
+    {
         title: "Diving Center Management System",
-        techStack: "Java, JavaFx, Scene Builder, Mysql, Layered Architecture",
+        techStack: "Java, JavaFx, Scene Builder, Mysql, Layered Architecture, OOP",
         image: Project01,
-        description: "it's a simple project for diving center, it can add or remove admins to it, " +
-            "And simple CRUD operation can be done, The architecture used to make it is Layered Architecture, " +
-            "It is also developed in Java and Mysql",
+        description: "",
         links: {
             live: "#",
             github: "https://github.com/rKaushalya",
@@ -35,29 +104,6 @@ const projects: Project[] = [
         title: "Battlefield Game",
         techStack: "Java, JavaFx, Scene Builder",
         image: Project02,
-        description: "this is simple game development. It has two single players, each player can choose three weapons, " +
-            "after choosing the weapon they can fight and the player with the highest score wins.",
-        links: {
-            live: "#",
-            github: "#",
-            demo: "#"
-        }
-    },
-    {
-        title: "ResumeGen",
-        techStack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
-        image: Image1,
-        description: "",
-        links: {
-            live: "#",
-            github: "#",
-            demo: "#"
-        }
-    },
-    {
-        title: "ResumeGen",
-        techStack: "JavaScript, ReactJS, Chakra UI, ContextAPI, Netlify",
-        image: Image1,
         description: "",
         links: {
             live: "#",
