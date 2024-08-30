@@ -70,10 +70,15 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         </div>
 
                         {/* Resume Button */}
-                        <button className="mt-8 px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg flex items-center transition-transform duration-300 hover:bg-purple-800 group">
-                            <span>Resume</span>
-                            <span className="ml-2 transition-transform duration-300 transform group-hover:translate-x-2">&rarr;</span>
-                        </button>
+                        <a href="/Ravindu%20Kaushalya%20CV.pdf" download>
+                            <button
+                                className="mt-8 px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg flex items-center transition-transform duration-300 hover:bg-purple-800 group">
+                                <span>Resume</span>
+                                <span
+                                    className="ml-2 transition-transform duration-300 transform group-hover:translate-x-2">&rarr;</span>
+                            </button>
+                        </a>
+
                     </div>
                 </div>
             </div>

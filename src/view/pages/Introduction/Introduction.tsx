@@ -2,7 +2,7 @@ import React from 'react';
 import {ReactTyped as Typed} from 'react-typed';
 import Particles from "react-tsparticles";
 import {loadFull} from 'tsparticles';
-import profilePic from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
+import profilePic from './../../../assest/images/profile/about2.jpg';
 import './particles.css';
 import {FaArrowDown} from 'react-icons/fa';
 
