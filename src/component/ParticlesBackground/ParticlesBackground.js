@@ -6,7 +6,7 @@ const ParticlesBackground = () => {
             window.particlesJS('particles-js', {
                 particles: {
                     number: {
-                        value: 70,
+                        value: 60,
                         density: {
                             enable: true,
                             value_area: 800,

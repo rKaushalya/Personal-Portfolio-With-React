@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {FaArrowUp, FaBars, FaTimes} from 'react-icons/fa'; // Icons for menu and close
-import Logo from './../../../assest/images/cute-mobile-phone-character-saying-thank-you-vector-41712253.jpg';
+import Logo from './../../../assest/images/myLogo.png';
 import './style.css';
 
 export const NavBar: React.FC = () => {

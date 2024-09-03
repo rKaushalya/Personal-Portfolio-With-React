@@ -35,7 +35,7 @@ export class Introduction extends React.Component {
                 >
                     <p className="text-3xl lg:text-4xl md:text-3xl font-bold text-primary">Hi There</p>
                     <h1 className="text-5xl lg:text-5xl md:text-3xl sm:text-3xl font-bold mt-2 text-primary">
-                        I'm <span className="text-yellow-500">Ravindu Kaushalya</span>
+                        I'm <span className="text-orange-400">Ravindu Kaushalya</span>
                     </h1>
                     <p className="text-xl lg:text-2xl md:text-xl sm:text-lg text-gray-700 mt-4">
                         I am into{" "}
