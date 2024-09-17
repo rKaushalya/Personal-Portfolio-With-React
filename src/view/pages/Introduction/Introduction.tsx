@@ -1,14 +1,10 @@
 import React from 'react';
 import {ReactTyped as Typed} from 'react-typed';
-import {loadFull} from 'tsparticles';
 import profilePic from './../../../assest/images/profile/about2.jpg';
 import {FaArrowDown} from 'react-icons/fa';
 import ParticlesBackground from "../../../component/ParticlesBackground/ParticlesBackground";
 
 export class Introduction extends React.Component {
-    particlesInit = async (main: any) => {
-        await loadFull(main);
-    };
 
     handleScrollTo = (id: string) => {
         const element = document.getElementById(id);
