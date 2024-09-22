@@ -6,7 +6,8 @@ Portfolio Website built using React.js, TailwindCSS, and TypeScript
 
 ## 📌 Tech Stack
 
-HTML  CSS  JS jQuery
+![image](https://github.com/user-attachments/assets/590d9cbc-ff7c-4474-b167-afc92451c9c9)
+
 
 ### `npm start`
 
