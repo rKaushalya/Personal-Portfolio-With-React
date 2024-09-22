@@ -6,14 +6,18 @@ Portfolio Website built using React.js, TailwindCSS, and TypeScript
 
 ## 📌 Tech Stack
 
+* HTML
+* CSS
+* React
+* JavaScript
+* TypeScript
+* Tailwind.css
+
 ## Extras :
 
 Particle.js, npm, Scroll Reveal, Font Awesome and JSON
 
-### `npm start`
+### `Home Page View`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot 2024-09-22 145328](https://github.com/user-attachments/assets/114fd424-2caa-48f9-9344-16a38e4bf7ab)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
