@@ -71,7 +71,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         </div>
 
                         {/* Resume Button */}
-                        <a href="https://drive.google.com/file/d/1E1iB2fNoSZHDa4Xqa0yqik_ziT7A8_B8/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1cPhMq88dAm7m4Xv5ym67ecxJA34N76hu/view?usp=sharing" target="_blank" rel="noreferrer">
                             <button
                                 className="mt-8 px-6 py-2 bg-purple-700 text-white font-semibold rounded-lg flex items-center transition-transform duration-300 hover:bg-purple-800 group">
                                 <span>Resume</span>
