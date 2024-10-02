@@ -27,7 +27,8 @@ export class AboutMe extends React.Component<AboutMeProps> {
                 {/* Container for image and details */}
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start justify-between p-8">
                     {/* Profile Image */}
-                    <div data-aos="fade-up-right" className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 relative overflow-hidden">
+                    <div data-aos="fade-up-right"
+                         className="w-full md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 relative overflow-hidden">
                         <img
                             src={profilePic}
                             alt="Profile"

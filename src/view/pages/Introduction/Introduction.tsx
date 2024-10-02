@@ -27,7 +27,7 @@ export class Introduction extends React.Component {
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500"
-                    className="relative z-10 text-start md:pt-0 lg:pt-0 sm:pt-20"
+                    className="relative z-10 text-start md:pt-0 lg:pt-0 sm:pt-10"
                 >
                     <p className="text-3xl lg:text-4xl md:text-3xl font-bold text-primary">Hi There</p>
                     <h1 className="text-5xl lg:text-5xl md:text-3xl sm:text-3xl font-bold mt-2 text-primary">
