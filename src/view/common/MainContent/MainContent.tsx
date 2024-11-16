@@ -5,7 +5,7 @@ import { AboutMe } from "../../pages/AboutMe/AboutMe";
 import { Education } from "../../pages/education/Education";
 import { Skills } from "../../pages/Skills/Skills";
 import { Projects } from "../../pages/Projects/Projects";
-import profilePic from './../../../assest/images/profile/about1.jpg';
+import profilePic from './../../../assest/images/profile/untitled-11.jpg';
 
 export class MainContent extends Component {
     render() {

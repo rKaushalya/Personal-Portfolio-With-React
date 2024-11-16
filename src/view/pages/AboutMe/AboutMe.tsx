@@ -51,7 +51,7 @@ export class AboutMe extends React.Component<AboutMeProps> {
                         <p className="lg:text-lg md:text-lg text-gray-500">Full Stack Developer</p>
 
                         {/* Description */}
-                        <p className="mt-4 text-gray-600 md:text-xs lg:text-[14px]">
+                        <p className="mt-4 text-gray-600 md:text-xs lg:text-[16px]" style={{ lineHeight: '1.50' }}>
                             I am a full-stack developer based in Galle, Sri Lanka. I’m following GDSE
                             course from the Institute of Software Engineering. I am very passionate about
                             improving my coding skills & developing applications & websites. I build websites
@@ -61,11 +61,11 @@ export class AboutMe extends React.Component<AboutMeProps> {
 
                         {/* Contact Info */}
                         <div className="mt-6">
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 md:text-xs lg:text-[16px]" style={{ lineHeight: '1.50' }}>
                                 <span className="font-semibold text-blue-500">Email</span> :
                                 <a href="mailto:ravinduk56@gmail.com"> ravinduk56@gmail.com</a>
                             </p>
-                            <p className="text-gray-700 mt-2">
+                            <p className="text-gray-700 mt-2 md:text-xs lg:text-[16px]" style={{ lineHeight: '1.50' }}>
                                 <span className="font-semibold text-blue-500">Place</span> : Galle, Sri Lanka
                             </p>
                         </div>
