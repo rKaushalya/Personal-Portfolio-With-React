@@ -26,7 +26,7 @@ export class Education extends Component {
                         <div className="p-6 w-full">
                             <h3 className="lg:text-2xl md:text-xl sm:text-lg font-bold text-blue-900">BEng (Hons) Software Engineering</h3>
                             <p className="text-gray-600 mt-2">London Metropolitan University (UK)</p>
-                            <p className="text-green-500 lg:font-medium md:text-xs mt-2">2024-2025 | Pursuing</p>
+                            <p className="text-green-500 lg:font-medium md:text-xs mt-2">2024-2025 | Completed</p>
                         </div>
                     </div>
 
