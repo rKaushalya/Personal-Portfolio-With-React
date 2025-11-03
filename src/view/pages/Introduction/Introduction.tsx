@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactTyped as Typed} from 'react-typed';
-import profilePic from './../../../assest/images/profile/profile.jpg';
+import profilePic from '../../../assest/images/profile/new profile.jpeg';
 import {FaArrowDown} from 'react-icons/fa';
 import ParticlesBackground from "../../../component/ParticlesBackground/ParticlesBackground";
 
