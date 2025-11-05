@@ -9,6 +9,8 @@ import Project05 from './../../../assest/images/project/project5.png';
 import Project06 from './../../../assest/images/project/project6.png';
 import Project07 from './../../../assest/images/project/project7.png';
 import Project08 from './../../../assest/images/project/project8.jpg';
+import aluProject from './../../../assest/images/project/sp aluminium.png';
+import tourease from './../../../assest/images/project/tourease.png';
 
 interface Project {
     title: string;
@@ -23,6 +25,28 @@ interface Project {
 }
 
 const projects: Project[] = [
+    {
+        title: "Website for Aluminium company",
+        techStack: "Developed a responsive static website for an Aluminium & Glass Work client, showcasing products, services, and dynamic customer testimonials for an enhanced online presence.",
+        image: aluProject,
+        description: "",
+        links: {
+            live: "https://spaluminium.com/",
+            github: "#",
+            demo: "https://spaluminium.com/"
+        },
+    },
+    {
+        title: "TourEase Sri Lanka",
+        techStack: "TourEase is a smart tourism guide with AI recommendations, real-time navigation, and easy hotel management system.",
+        image: tourease,
+        description: "",
+        links: {
+            live: "#",
+            github: "https://github.com/rKaushalya/TourEase-Web-Application",
+            demo: "#"
+        },
+    },
     {
         title: "Work Shop With MERN",
         techStack: "React, TypeScript, Tailwind, MongoDB, Nodejs, Expressjs, Axios",
@@ -89,7 +113,7 @@ const projects: Project[] = [
             demo: "#"
         },
     },
-    {
+    /*{
         title: "Diving Center Management System",
         techStack: "Java, JavaFx, Scene Builder, Mysql, Layered Architecture, OOP",
         image: Project01,
@@ -99,18 +123,18 @@ const projects: Project[] = [
             github: "https://github.com/rKaushalya/Final-Project",
             demo: "#"
         }
-    },
-    {
-        title: "Battlefield Game",
-        techStack: "Java, JavaFx, Scene Builder",
-        image: Project02,
-        description: "",
-        links: {
-            live: "#",
-            github: "https://github.com/rKaushalya/Battlefield-Game",
-            demo: "#"
-        }
-    }
+    },*/
+    // {
+    //     title: "Battlefield Game",
+    //     techStack: "Java, JavaFx, Scene Builder",
+    //     image: Project02,
+    //     description: "",
+    //     links: {
+    //         live: "#",
+    //         github: "https://github.com/rKaushalya/Battlefield-Game",
+    //         demo: "#"
+    //     }
+    // }
 ];
 
 const ProjectCard = ({ project }: { project: Project }) => (
