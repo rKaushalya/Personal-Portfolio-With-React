@@ -1,11 +1,33 @@
-import React, { useState } from "react";
-import { FaNodeJs, FaReact, FaHtml5, FaCss3, FaAws, FaDatabase } from "react-icons/fa";
-import { SiGit,
+import React, {useState} from "react";
+import {FaNodeJs, FaReact, FaHtml5, FaCss3, FaAws, FaDatabase} from "react-icons/fa";
+import {
+    SiGit,
     SiGithub,
     SiDocker,
     SiPython,
-    SiWordpress,SiExpress, SiMongodb, SiFirebase, SiMysql, SiSpring, SiSonarqube,
-    SiJavascript, SiNextdotjs, SiRedux, SiTypescript, SiTailwindcss, SiMui, SiBootstrap, SiJquery, SiOracle, SiJira, SiReact, SiAndroidstudio, SiGoogle, SiFigma } from "react-icons/si";
+    SiWordpress,
+    SiExpress,
+    SiMongodb,
+    SiFirebase,
+    SiMysql,
+    SiSpring,
+    SiSonarqube,
+    SiJavascript,
+    SiNextdotjs,
+    SiRedux,
+    SiTypescript,
+    SiTailwindcss,
+    SiMui,
+    SiBootstrap,
+    SiJquery,
+    SiOracle,
+    SiJira,
+    SiReact,
+    SiAndroidstudio,
+    SiGoogle,
+    SiFigma,
+    SiPhp
+} from "react-icons/si";
 
 export const Skills = () => {
     const [selectedTab, setSelectedTab] = useState("Frontend");
@@ -144,6 +166,16 @@ export const Skills = () => {
                                 className="text-green-500 text-5xl mb-2 transition-transform duration-300 ease-in-out hover:scale-125"/>
                             <p className="transition-all duration-300 ease-in-out">Spring</p>
                         </div>
+
+                        <div
+                            className="flex flex-col items-center rounded-full transition-all duration-300 ease-in-out hover:scale-110"
+                        >
+                            <SiPhp
+                                className="text-[#777BB3] text-5xl mb-2 transition-transform duration-300 ease-in-out hover:scale-125"
+                            />
+                            <p className="transition-all duration-300 ease-in-out">PHP</p>
+                        </div>
+
                     </div>
                 );
             case "Others":
