@@ -1,8 +1,8 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub, FaPlayCircle } from "react-icons/fa";
 import './style.css'
-import Project01 from './../../../assest/images/project/project01.png';
-import Project02 from './../../../assest/images/project/project02.png';
+// import Project01 from './../../../assest/images/project/project01.png';
+// import Project02 from './../../../assest/images/project/project02.png';
 import Project03 from './../../../assest/images/project/project3.png';
 import Project04 from './../../../assest/images/project/project4.png';
 import Project05 from './../../../assest/images/project/project5.png';
